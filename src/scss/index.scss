@@ -2,13 +2,230 @@
 @import 'core/typography';
 @import 'core/base';
 @import 'core/libs';
-
 @import 'layouts/header';
 @import 'layouts/footer';
-
 @import 'adaptive/xxl';
 @import 'adaptive/xl';
 @import 'adaptive/lg';
 @import 'adaptive/md';
 @import 'adaptive/sm';
 @import 'adaptive/xs';
+//************ fonts *******//
+@font-face {
+    font-family: ArtegraSoft-Regular;
+    src: url(../fonts/ArtegraSoft-Regular.woff);
+}
+
+@font-face {
+    font-family: ArtegraSoft-Bold;
+    src: url(../fonts/ArtegraSoft-Bold.woff);
+}
+
+@font-face {
+    font-family: Arial;
+    src: url(../fonts/Arial.woff);
+}
+
+@font-face {
+    font-family: ArtegraSoft-Medium;
+    src: url(../fonts/ArtegraSoft-Medium.woff);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto.woff);
+}
+
+//********* style **********//
+header {
+    background: #0066B2;
+    padding: 48px 160px 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    width: 231px;
+    height: 58px;
+}
+
+.navbar__item-link {
+    display: inline-block;
+    margin: 0 0 0 53px;
+    &:nth-child(1) {
+        margin: 0;
+    }
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.main {
+    margin: 0 0 213px;
+    position: relative;
+    background: #0066B2;
+    padding: 0 160px;
+    height: 900px;
+    h1 {
+        margin: 0 0 21px;
+        font-family: ArtegraSoft-Bold;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 52px;
+        line-height: 150%;
+        width: 886px;
+        height: 156px;
+        /* or 78px */
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    p {
+        margin: 0 0 81px;
+        width: 581px;
+        height: 60px;
+        font-family: Arial;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 177.49%;
+        /* or 30px */
+        color: #FFFFFF;
+    }
+}
+
+.data__link {
+    position: absolute;
+    left: -170px;
+    top: 555px;
+    transform: rotate(-90deg);
+}
+
+.data__mail {
+    width: 184px;
+    height: 16px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+    letter-spacing: 0.165em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.data__phone {
+    margin: 22px 0 0 49px;
+    width: 122px;
+    height: 16px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+    letter-spacing: 0.165em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.pin-main {
+    position: absolute;
+    right: -120px;
+    top: 40px;
+    width: 385px;
+    height: 409px;
+}
+
+.data__link-img {
+    transform: rotate(90deg);
+    width: 23px;
+    height: 23px;
+    margin: 0 0 0 16px;
+}
+
+.header__product {
+    width: 1201px;
+    height: 678px;
+}
+
+.section {
+    padding: 0 160px;
+}
+
+.information__company {
+    width: 351px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 23px;
+    h2 {
+        width: 221px;
+        height: 45px;
+        font-family: ArtegraSoft-Bold;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 150%;
+        /* identical to box height, or 45px */
+        text-transform: uppercase;
+        /* black */
+        color: #2B2A29;
+    }
+}
+
+.info-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 161.99%;
+    /* or 26px */
+    /* black */
+    color: #2B2A29;
+    width: 460px;
+    height: 234px;
+    &:nth-child(2) {
+        margin: 0 25px 0 110px;
+    }
+}
+
+.info-data {
+    margin: 106px 0 0;
+    width: 217px;
+    height: 16px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+    letter-spacing: 0.165em;
+    text-transform: uppercase;
+    color: #2B2A29;
+    transform: rotate(-90deg);
+}
+
+.information-detail {
+    margin: 54px 0 112px;
+    width: 175px;
+    height: 46px;
+    background: #0066B2;
+    font-family: ArtegraSoft-Medium;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.125em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
