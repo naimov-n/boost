@@ -27,3 +27,7 @@
           }
       }]
   });
+
+  function js() {
+      document.getElementById("collapsibleNavbar").classList.toggle("play");
+  }
