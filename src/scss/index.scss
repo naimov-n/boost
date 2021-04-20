@@ -37,17 +37,23 @@
 }
 
 //********* style **********//
-header {
+.header {
     background: #0066B2;
-    padding: 48px 160px 75px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    padding: 48px 0 75px;
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 }
 
 .navbar-brand {
     width: 231px;
     height: 58px;
+}
+
+.container {
+    max-width: 1120px;
 }
 
 .navbar__item-link {
@@ -73,7 +79,7 @@ body {
     margin: -1px 0 213px;
     position: relative;
     background: #0066B2;
-    padding: 0 160px;
+    padding: 0;
     height: 900px;
     h1 {
         margin: 0 0 21px;
@@ -159,7 +165,7 @@ body {
 }
 
 .section {
-    padding: 0 160px;
+    padding: 0;
 }
 
 .information__company {
@@ -400,7 +406,7 @@ body {
 }
 
 .products {
-    padding: 83px 160px 105px;
+    padding: 83px 0 105px;
     background-color: #DFE3E6;
 }
 
@@ -506,10 +512,12 @@ body {
 }
 
 .footer {
+    .container {
+        display: flex;
+    }
     overflow-y: hidden;
     position: relative;
-    padding: 85px 160px 37px;
-    display: flex;
+    padding: 85px 0 37px;
     background: url(../img/footer-back.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
