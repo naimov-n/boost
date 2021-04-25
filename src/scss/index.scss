@@ -668,7 +668,14 @@
     mix-blend-mode: normal;
 }
 
-@media (max-width: 320px) {
+.navbar-toggler {
+    display: none;
+}
+
+@media (min-width: 320px) and (max-width: 450px) {
+    .container {
+        max-width: 320px;
+    }
     .header {
         padding: 20px 0;
         .container {
@@ -717,7 +724,8 @@
         margin: 0 0 0 5px;
     }
     .navbar-toggler {
-        transform: translate(95px, -5px);
+        transform: translate(253px, -32px);
+        display: block;
     }
     .collapse {
         display: none;
