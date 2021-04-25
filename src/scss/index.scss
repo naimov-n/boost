@@ -732,6 +732,12 @@
         margin: 0 auto 15px;
         display: block;
     }
+    .navbar__item {
+        text-align: center;
+    }
+    .navbar__item-link {
+        font-size: 12px;
+    }
     .header__product {
         width: 100%;
         height: 100%;
@@ -739,5 +745,252 @@
     .main {
         height: 385px;
         margin: 0;
+    }
+    .information__company h2 {
+        font-size: 16px;
+        width: 120px;
+        height: 100%;
+    }
+    .information__company {
+        margin: 25px 0 20px;
+        font-size: 16px;
+        width: 200px;
+        img {
+            width: 50px;
+        }
+    }
+    .section {
+        .d-flex {
+            display: block!important;
+        }
+    }
+    .info-text {
+        font-size: 10px;
+        width: 100%;
+        height: 100%;
+        &:nth-child(2) {
+            margin: 20px 0;
+        }
+    }
+    .info-data {
+        width: 100px;
+        font-size: 10px;
+    }
+    .information-detail {
+        margin: 17px 0 30px;
+        width: 100%;
+        height: 30px;
+        border-radius: 3px;
+        font-size: 12px;
+    }
+    .item {
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .information-carousel {
+        display: none;
+    }
+    .information__diler h2 {
+        font-size: 16px;
+        width: 120px;
+        height: 100%;
+    }
+    .information__diler {
+        font-size: 16px;
+        width: 200px;
+        img {
+            width: 50px;
+        }
+    }
+    .pin-body {
+        display: none;
+    }
+    .info-convenience {
+        margin: 10px 0;
+    }
+    .info-services {
+        img {
+            width: 18px;
+            height: 12px;
+        }
+        h3 {
+            font-size: 14px;
+            width: 205px;
+            height: 100%;
+        }
+    }
+    .oval {
+        width: 40px!important;
+        height: 40px;
+    }
+    .info-discounts {
+        align-items: center;
+        img {
+            width: 22px;
+            height: 18px;
+        }
+        h3 {
+            font-size: 14px;
+            width: 205px;
+            height: 100%;
+        }
+    }
+    .info-quality {
+        img {
+            width: 18px;
+            height: 12px;
+        }
+        h3 {
+            font-size: 14px;
+            width: 205px;
+            height: 100%;
+        }
+    }
+    .information-detal {
+        margin: 17px 0 30px;
+        width: 100%;
+        height: 30px;
+        border-radius: 3px;
+        font-size: 12px;
+    }
+    .products__info h2 {
+        font-size: 16px;
+        width: 120px;
+        height: 100%;
+    }
+    .products__info {
+        font-size: 16px;
+        width: 155px;
+        img {
+            width: 50px;
+        }
+    }
+    .products {
+        padding: 30px 0;
+        .d-flex:nth-child(2) {
+            display: block!important;
+        }
+    }
+    .products-all {
+        margin: 0 0 27px;
+        p {
+            font-size: 11px;
+            height: 100%;
+        }
+        img {
+            width: 11px;
+            height: 100%;
+        }
+    }
+    .product-yell {
+        margin: 20px 0 0;
+        width: 100%;
+        height: 100%;
+        img {
+            width: 100%;
+        }
+    }
+    .product-soda {
+        img {
+            width: 100%;
+        }
+        width: 100%;
+        height: 100%;
+    }
+    .product-meat {
+        margin: 20px 0 0;
+        img {
+            width: 100%;
+        }
+        width: 100%;
+        height: 100%;
+    }
+    .product-title {
+        padding: 10px;
+        b {
+            width: 100%;
+            height: 100%;
+            font-size: 16px;
+        }
+        img {
+            width: 20px;
+            height: 20px;
+        }
+    }
+    .soon {
+        font-size: 13px;
+        width: 60px;
+        height: 20px;
+        top: 10px;
+        left: 10px;
+    }
+    .tin-can-one {
+        position: absolute;
+        top: 50px;
+        left: 40px;
+        width: 130px!important;
+        height: 190px;
+    }
+    .tin-can-two {
+        position: absolute;
+        top: 50px;
+        left: 60px;
+        width: 218px!important;
+        height: 218px;
+    }
+    .footer {
+        padding: 30px 0;
+        .container {
+            display: block!important;
+        }
+        background: #0066B2;
+    }
+    .footer-info {
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        img {
+            margin: 0 auto;
+        }
+        p {
+            margin: 20px 0 0;
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .footer-link {
+        h2 {
+            margin: 0 0 10px;
+        }
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        margin: 20px 0 0;
+    }
+    .footer-page {
+        h2 {
+            margin: 0 0 10px;
+        }
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        margin: 20px 0 0;
+    }
+    .footer-contact {
+        h2 {
+            margin: 0 auto 10px;
+        }
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        margin: 20px 0 0;
+        .d-flex {
+            justify-content: center;
+        }
+    }
+    .footer-pin {
+        display: none;
     }
 }
